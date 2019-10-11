@@ -8,5 +8,6 @@ class Show < ActiveRecord::Base
     self.actors.all.each do |actor|
       actors_to_return << actor.full_name
     end
+    actors_to_return
   end
 end
