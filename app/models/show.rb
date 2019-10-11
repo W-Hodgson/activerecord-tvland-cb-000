@@ -4,9 +4,9 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def actors_list
-    a = []
+    actors_to_return = []
     self.actors.all.each do |actor|
-
+      a <<
     end
   end
 end
