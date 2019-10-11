@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
   def actors_list
     actors_to_return = []
     self.actors.all.each do |actor|
-      actors_to_return <<
+      actors_to_return << actor.full_name
     end
   end
 end
