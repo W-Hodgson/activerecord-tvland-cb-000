@@ -1,3 +1,3 @@
-class AddColumnsToShows < ActiveRecord::Migration
+class AddColumnsToShows < ActiveRecord::Migration[5,1]
 
 end
